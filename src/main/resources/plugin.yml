@@ -1,0 +1,4 @@
+name: Wildlands
+version: '${project.version}'
+main: de.n04h.wildlands.Wildlands
+api-version: 1.19
