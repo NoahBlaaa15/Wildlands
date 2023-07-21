@@ -2,7 +2,6 @@ package de.n04h.wildlands.Terminals;
 
 import org.bukkit.Location;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,6 +19,12 @@ public class TerminalManager {
     }
 
     public Terminal getClosestTerminal(Location l) {
+        terminals.sort(new Comparator<Terminal>() {
+            @Override
+            public int compare(Terminal o1, Terminal o2) {
+                return 0;
+            }
+        });
         if (terminals.isEmpty()) {
             return null;
         }

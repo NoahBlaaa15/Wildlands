@@ -12,11 +12,13 @@ public class PorterEvents implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
+        //TODO: Make Player choose character
         porters.put(e.getPlayer(), new Porter(e.getPlayer()));
     }
 
     @EventHandler
     public void onQuit(PlayerQuitEvent e) {
+        //TODO: Save Player data
         porters.remove(e.getPlayer());
     }
 

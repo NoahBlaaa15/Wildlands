@@ -14,6 +14,9 @@ public final class Wildlands extends JavaPlugin {
                             " / \\   \\   / \\   \\   / \\   \\\n" +
                             "~   `-~ `-`   `-~ `-`   `-~ `-");
         //TODO: Load Player saves and game checkpoints
+        //TODO: Friend system
+        //TODO: Like currency
+        //TODO: Texture pack integration
         getLogger().info("Strand confirmed");
     }
 

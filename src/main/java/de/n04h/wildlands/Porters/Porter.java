@@ -16,6 +16,7 @@ public class Porter {
 
     public Porter(Player p) {
         this.p = p;
+        //TODO: Load Data for player or create new entry
     }
 
 }
